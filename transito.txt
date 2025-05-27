@@ -1,0 +1,29 @@
+Comandos:
+<atravesse> = Atravesse a faixa
+<Olhe> = Olhe para os dois lados
+<Espere> = Espera um valor de variável esécífico
+
+Variáveis
+<Semáforo>  = Verde: Carros em movimento  / Amarelo = Carros em movimento / Vermelho = Carros parados
+<Via de mão dupla> = Esquerda: Os carros vem da direita para esquerda / Direita: Os carros vem da Esquerda para direita
+<Carro> = Sim: Está vindo um carro / Não: Não há carro algum 
+
+#Inicio: Ponto A
+Se {Semáforo = Vermelho}
+	{Atravesse}
+Senão 
+	{Espere}
+
+#Atravessou a primeira Faixa 
+{Olhe}
+Se {Carro}
+	{Espere: Carro = Não}
+Senão {Atravesse}
+
+#Atravessou a segunda faixa
+{Olhe}
+Se {Carro}
+	{Espere: Carro = Não}
+Senão {Atravesse}
+
+#Chegou ao ponto B

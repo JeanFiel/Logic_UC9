@@ -1,0 +1,64 @@
+Jogador escolhe impar ou par
+Jogador escolhe um numero de 1-10
+Algoritmo seleciona um numero aleatório de 1-10
+Algoritmo soma os numeros selecionados
+
+Variáveis:
+
+C = (Valor da escolha do jogador = Par / Impar)
+R = (Valor da escolha do algoritmo = Par / Impar)
+X = (Valor da soma dos numeros selecionado)
+
+{
+
+VALIDA ESCOLHAJOGADOR
+Se (C = Par) Então
+	{R = Impar}
+	Senão
+	{R = Par}
+
+#Soma dos valores = X
+
+VALIDA RESULTADOPARTIDA
+Se (X = Par)  Então
+	{Jogador Par vence}
+	Senão
+	{Jogador Impar vence}
+
+VALIDA VENCEDOR
+Se (Perdeu) Então SAIR
+senão (Venceu) {Print: Você venceu} 
+
+}
+
+#Pedra papel ou tesoura
+R = PEDRA
+S = TESOURA
+P = PAPEL 
+
+}
+
+R > S 
+S > P
+P > R
+
+#Jogador escolhe entre os 3 objetos
+#Algoritmo escolhe entre os 3 objetos
+
+E = (Escolha do jogador = R / P / S )
+A = (Escolha do algoritmo = R / P / S )
+T = (Empate)
+
+VALIDA RESULTADO
+SE E > A Então {Print: Você venceu}
+SE E < A Então {Print: Você perdeu}
+SE E = A Então {Print :empate)
+
+VALIDA VENCEDOR
+SE (Perdeu) Então SAIR
+SE (Venceu) {Print: Você venceu} 
+SE (Empate) Então REINICIAR JOGO
+
+}
+
+
