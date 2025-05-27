@@ -1,0 +1,29 @@
+#Itens
+#Lampada Antiga = Lampada a ser trocada
+#Lampada Nova = Lâmpada para substituir
+#Mesa = Local onde a Lampada Nova esta
+#Bocal = Local onde as lâmpadas estão rosqueadas
+
+#Removendo a lampada antiga
+#A garra começa aberta
+Mova a garra para <lampada Antiga>
+#Pegando a lampada antiga
+Feche a garra
+
+#Girando a garra para remover a lâmpada
+Gire a garra 180 sentido anti horário
+Gire a garra 180 sentido anti horário
+
+#Segurando a lâmpada antiga
+Mova a garra para <Mesa>
+Abra a garra
+#Soltou a Lãmpada antiga
+
+Mova a garra para <Nova lâmpadas>
+#Garra já está aberta então não precisa abrir
+Feche a garra
+
+Mova a garra para <Bocal>
+Gire a garra 180 sentido horário
+Gire a garra 180 sentido horário
+
